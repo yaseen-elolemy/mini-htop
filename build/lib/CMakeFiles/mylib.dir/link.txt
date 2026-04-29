@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmylib.a CMakeFiles/mylib.dir/lib.c.o CMakeFiles/mylib.dir/uptime.c.o CMakeFiles/mylib.dir/memspace.c.o CMakeFiles/mylib.dir/procs.c.o
+/usr/bin/ranlib libmylib.a

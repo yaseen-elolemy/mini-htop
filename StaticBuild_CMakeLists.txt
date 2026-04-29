@@ -1,0 +1,30 @@
+cmake_minimum_required(VERSION 3.28)
+
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_PROCESSOR arm)
+
+set(TOOLCHAIN_BIN "$ENV{HOME}/embedded-linux-qemu-labs/ct-build/arm-training-linux-musleabihf/bin")
+
+set(CMAKE_C_COMPILER "${TOOLCHAIN_BIN}/arm-training-linux-musleabihf-gcc")
+
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+
+project(mini-htop)
+
+set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
+set(CURSES_NEED_NCURSES TRUE)
+
+set(Curses_USE_STATIC_LIBS ON)
+
+find_package(Curses REQUIRED)
+
+add_subdirectory(lib)
+
+add_executable(${PROJECT_NAME} main.c)
+
+target_include_directories(${PROJECT_NAME} PRIVATE ${CURSES_INCLUDE_DIR})
+target_link_libraries(${PROJECT_NAME} PRIVATE mylib ${CURSES_LIBRARIES} m)
+
+target_link_options(${PROJECT_NAME} PRIVATE -static)

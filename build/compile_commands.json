@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build",
+  "command": "/usr/bin/cc  -I/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/lib -g -o CMakeFiles/mini-htop.dir/main.c.o -c /home/yaseen/os/Adv_Os_Assignment1/Mini-htop/main.c",
+  "file": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/main.c",
+  "output": "CMakeFiles/mini-htop.dir/main.c.o"
+},
+{
+  "directory": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/lib",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/mylib.dir/lib.c.o -c /home/yaseen/os/Adv_Os_Assignment1/Mini-htop/lib/lib.c",
+  "file": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/lib/lib.c",
+  "output": "lib/CMakeFiles/mylib.dir/lib.c.o"
+},
+{
+  "directory": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/lib",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/mylib.dir/uptime.c.o -c /home/yaseen/os/Adv_Os_Assignment1/Mini-htop/lib/uptime.c",
+  "file": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/lib/uptime.c",
+  "output": "lib/CMakeFiles/mylib.dir/uptime.c.o"
+},
+{
+  "directory": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/lib",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/mylib.dir/memspace.c.o -c /home/yaseen/os/Adv_Os_Assignment1/Mini-htop/lib/memspace.c",
+  "file": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/lib/memspace.c",
+  "output": "lib/CMakeFiles/mylib.dir/memspace.c.o"
+},
+{
+  "directory": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/lib",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/mylib.dir/procs.c.o -c /home/yaseen/os/Adv_Os_Assignment1/Mini-htop/lib/procs.c",
+  "file": "/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/lib/procs.c",
+  "output": "lib/CMakeFiles/mylib.dir/procs.c.o"
+}
+]

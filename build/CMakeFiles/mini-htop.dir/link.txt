@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/mini-htop.dir/main.c.o" -o mini-htop  lib/libmylib.a -lcurses /usr/lib/x86_64-linux-gnu/libform.so -lm 

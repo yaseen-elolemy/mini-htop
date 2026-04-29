@@ -1,0 +1,6 @@
+/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/CMakeFiles/mini-htop.dir
+/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/CMakeFiles/edit_cache.dir
+/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/CMakeFiles/rebuild_cache.dir
+/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/lib/CMakeFiles/mylib.dir
+/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/lib/CMakeFiles/edit_cache.dir
+/home/yaseen/os/Adv_Os_Assignment1/Mini-htop/build/lib/CMakeFiles/rebuild_cache.dir
